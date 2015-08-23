@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 x = 4 + 3
 s = "xxx"
 flag = True
@@ -12,7 +14,7 @@ Multiline string
 def my_func():
     pass
 
-class Val(object):
+class Obj(object):
     def __init__(self, x):
         pass
 
@@ -22,7 +24,7 @@ class Val(object):
     def method(self, x):
         pass
 
-o = Val()
+o = Obj(1)
 o.x = 2
 
 d = {
