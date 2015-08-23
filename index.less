@@ -58,7 +58,7 @@ atom-text-editor, :host {
 }
 
 .comment {
-  color: @light-gray;
+  color: @syntax-color-comment;
 }
 
 .entity {
@@ -72,10 +72,10 @@ atom-text-editor, :host {
 }
 
 .keyword {
-  color: @purple;
+  color: @syntax-color-keyword;
 
   &.control {
-    color: @purple;
+    color: @syntax-color-keyword;
   }
 
   &.operator {
@@ -92,18 +92,18 @@ atom-text-editor, :host {
 }
 
 .storage {
-  color: @purple;
+  color: @syntax-color-keyword;
 }
 
 .constant {
-  color: @orange;
+  color: @syntax-color-constant;
 
   &.character.escape {
     color: @cyan;
   }
 
   &.numeric {
-    color: @orange;
+    color: @syntax-color-numeric;
   }
 
   &.other.color {
@@ -133,7 +133,7 @@ atom-text-editor, :host {
 }
 
 .string {
-  color: @green;
+  color: @syntax-color-string;
 
   &.regexp {
     color: @cyan;
@@ -147,7 +147,7 @@ atom-text-editor, :host {
 .punctuation {
   &.definition {
     &.comment {
-      color: @light-gray;
+      color: @syntax-color-comment;
     }
 
     &.parameters,
@@ -166,7 +166,7 @@ atom-text-editor, :host {
     }
 
     &.italic {
-      color: @purple;
+      color: @syntax-color-keyword;
       font-style: italic;
     }
   }
@@ -178,7 +178,7 @@ atom-text-editor, :host {
 
 .support {
   &.class {
-    color: @light-orange;
+    color: @syntax-color-class;
   }
 
   &.function  {
@@ -192,11 +192,11 @@ atom-text-editor, :host {
 
 .entity {
   &.name.function {
-    color: @blue;
+    color: @syntax-color-method;
   }
 
   &.name.class, &.name.type.class {
-    color: @light-orange;
+    color: @syntax-color-class;
   }
 
   &.name.section {
@@ -218,7 +218,7 @@ atom-text-editor, :host {
 
 .meta {
   &.class {
-    color: @light-orange;
+    color: @syntax-color-class;
   }
 
   &.link {
@@ -230,7 +230,7 @@ atom-text-editor, :host {
   }
 
   &.selector {
-    color: @purple;
+    color: @syntax-color-keyword;
   }
 
   &.separator {
@@ -254,7 +254,7 @@ atom-text-editor, :host {
   }
 
   &.changed {
-    color: @purple;
+    color: @syntax-color-keyword;
   }
 
   &.deleted {
@@ -262,7 +262,7 @@ atom-text-editor, :host {
   }
 
   &.italic {
-    color: @purple;
+    color: @syntax-color-keyword;
     font-style: italic;
   }
 

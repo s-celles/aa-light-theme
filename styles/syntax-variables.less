@@ -6,41 +6,53 @@
 // General colors
 @syntax-text-color: darken(@aa-black, 5%);
 @syntax-cursor-color: @aa-black;
-@syntax-selection-color: #badfff;
-@syntax-selection-flash-color: darken(#badfff, 10%);
+@syntax-selection-color: @aa-very-light-blue;
+@syntax-selection-flash-color: darken(@aa-very-light-blue, 10%);
 @syntax-background-color: @aa-white;
 
 // Guide colors
 @syntax-wrap-guide-color: @very-light-gray;
 @syntax-indent-guide-color: @very-light-gray;
-@syntax-invisible-character-color: @light-gray;
+@syntax-invisible-character-color: @aa-dark-gray;
 
 // For find and replace markers
-@syntax-result-marker-color: @light-gray;
+@syntax-result-marker-color: @aa-dark-gray;
 @syntax-result-marker-color-selected: @aa-white;
 
 // Gutter colors
 @syntax-gutter-text-color: @very-light-gray;
-@syntax-gutter-text-color-selected: @light-gray;
+@syntax-gutter-text-color-selected: @aa-dark-gray;
 @syntax-gutter-background-color: @aa-white;
 @syntax-gutter-background-color-selected: @very-light-gray;
 
 // For git diff info. i.e. in the gutter
 @syntax-color-renamed: @blue;
-@syntax-color-added: @green;
+@syntax-color-added: @aa-pink;
 @syntax-color-modified: @orange;
 @syntax-color-removed: @red;
 
 // For language entity colors
 @syntax-color-variable: @red;
-@syntax-color-constant: @orange;
+@syntax-color-constant: @aa-light-blue;
+@syntax-color-numeric: @aa-light-blue;
+@syntax-color-string: @aa-pink;
 @syntax-color-property: @syntax-text-color;
-@syntax-color-value: @green;
+@syntax-color-value: @aa-pink;
 @syntax-color-function: @blue;
-@syntax-color-method: @blue;
+@syntax-color-method: @aa-black;
 @syntax-color-class: @light-orange;
-@syntax-color-keyword: @purple;
+@syntax-color-keyword: @aa-blue;
 @syntax-color-tag: @red;
 @syntax-color-attribute: @orange;
 @syntax-color-import: @syntax-color-keyword;
-@syntax-color-snippet: @green;
+@syntax-color-snippet: @aa-pink;
+
+@syntax-color-comment:           @aa-dark-gray;
+
+/*
+@purple -> @aa-blue
+
+@syntax-color-keyword
+*/
+
+@debug: @red;
