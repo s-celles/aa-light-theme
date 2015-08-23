@@ -1,0 +1,15 @@
+bbedit -> color -> aa-light (Base 16 Tomorow Light)
+
+area( ) -> ffffff -> ffffff                                   @aa-black
+out of area -> f5f5f5 -> ffffff
+selection -> badfff -> dfe1e0
+selection (no focus) -> d9d9d9 -> dfe1e0 (same as selection)
+current line -> feffe5 -> no display
+language word import -> 3300cf -> b294bb
+string "xxx" -> ff0099
+integer 122232244899889 -> 2b639b -> e3935f
+variable -> 000000 -> 111213
+# comment -> 555555 -> c5c8c9
+
+class Val(object):
+    pass
