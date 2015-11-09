@@ -3,7 +3,7 @@
   "theme": "syntax",
   "version": "0.0.1",
   "description": "aa light theme for Atom inspired by base16",
-  "repository": "https://github.com/atom/base16-tomorrow-light-theme",
+  "repository": "https://github.com/scls19fr/aa-light-theme",
   "license": "MIT",
   "engines": {
     "atom": ">0.49.0"
